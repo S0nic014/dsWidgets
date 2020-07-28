@@ -1,4 +1,9 @@
+import logging
 from PySide2 import QtWidgets
+from PySide2 import QtCore
+
+
+LOGGER = logging.getLogger(__name__)
 
 
 class ScrollWidget(QtWidgets.QWidget):
