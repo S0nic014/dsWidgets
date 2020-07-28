@@ -13,8 +13,8 @@ class TimeRange(QtWidgets.QWidget):
         # Widgets
         self.timeslider_radio = QtWidgets.QRadioButton("Time slider")
         self.startend_radio = QtWidgets.QRadioButton("Start/end")
-        self.timeslider_radio.setChecked(not mode)
-        self.startend_radio.setChecked(mode)
+        self.timeslider_radio.setChecked(mode)
+        self.startend_radio.setChecked(not mode)
         self.start_label = QtWidgets.QLabel("Start:")
         self.start_time = QtWidgets.QSpinBox()
         self.start_time.setMinimumWidth(50)
